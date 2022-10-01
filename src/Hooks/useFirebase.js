@@ -17,6 +17,7 @@ const useFirebase = () => {
   // const [userDetails, setUserDetails] = useState({});
   const auth = getAuth();
   const fbProvider = new FacebookAuthProvider();
+  
   // Maybe important maybe not
   fbProvider.addScope("public_profile");
 
