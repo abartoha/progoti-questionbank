@@ -25,6 +25,7 @@ import AuthProvider from './Context/AuthProvider';
 //////////////////////////////////////////////////////////////////////////////
 import Home from './Pages/Home/Home';
 import Form from './Pages/Form/Form';
+import PrivacyPolicy from './Pages/PrivacyPolicy/PrivacyPolicy';
 // import FakeDash from './Pages/FakeDash/FakeDash';
 // import NewHome from './Pages/NewHome/NewHome';
 //============================================================================
@@ -50,6 +51,7 @@ function App() {
           <Route path="/join" element={<LoginRoute><Home></Home></LoginRoute>}/>
           <Route exact path="/" element={<LoginRoute><Home></Home></LoginRoute>}/>
           <Route path="/dash" element={<DashRoute><Form></Form></DashRoute>}/>
+          <Route path="/pp" element={<PrivacyPolicy></PrivacyPolicy>}/>
           {/* <Route path="/home" element={<Home/>}/>
           <Route path="/shop" element={<Shop/>}/>
           <Route path="/contact" element={<Contact/>}/> */}

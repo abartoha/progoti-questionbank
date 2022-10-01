@@ -1,6 +1,6 @@
 {
   "name": "progoti-questionbank",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "peerDependencies": {
     "react": "^17.0.2",
@@ -14,10 +14,11 @@
     "0g": "^0.0.6",
     "dotenv": "^14.2.0",
     "firebase": "^9.6.1",
+    "node": "^18.10.0",
     "react-hook-form": "^7.22.5",
     "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
-    "serve": "^13.0.2",
+    "serve": "^13.0.4",
     "web-vitals": "^2.1.2",
     "yup": "^0.32.11"
   },

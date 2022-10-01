@@ -3,6 +3,7 @@ import React from "react";
 import "./Home.css";
 // import { Link } from "react-router-dom";
 import useAuth from "../../Hooks/useAuth";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const {fbAuth} = useAuth();
@@ -98,7 +99,8 @@ const Home = () => {
           >
             AlRazi
           </a>
-          ; Our <a href="https://www.privacypolicies.com/live/4aee9d8b-656c-4b2f-9809-5ac7ac63f055">Privacy Policy</a>
+          ; Our <Link to="/pp">Privacy Policy</Link>
+          {/* ; Our <a href="https://www.privacypolicies.com/live/4aee9d8b-656c-4b2f-9809-5ac7ac63f055">Privacy Policy</a> */}
           , <a href="https://www.privacypolicies.com/live/a95a7e19-a79a-4ece-9aba-718b26033745">Disclaimer</a>
           , <a href="https://www.termsandconditionsgenerator.com/live.php?token=xp6AHbBoDI2MuIRJkEunk8oUHKTQbitN">Terms and Conditions</a>
           , <a href="https://www.eulatemplate.com/live.php?token=41tToWSGQqLO4NJhII8cV314gRW97zsK">EULA</a>
